@@ -4,7 +4,6 @@ node {
 
 }
     stage('build') {
-        sh 'cd jenkins_java'
    sh 'javac Main.java'
 }
     stage('run') {
